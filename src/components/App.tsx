@@ -1,14 +1,14 @@
 import {default as React} from 'react';
 
 const {
-    applicationID, adminAPIKey
+    applicationID, adminAPIKey, index_name
 } = env;
 
 const algoliasearch = require("algoliasearch");
 
 const client = algoliasearch(applicationID, adminAPIKey);
 
-const currentAlgoliaIndex = client.initIndex('names');
+const currentAlgoliaIndex = client.initIndex(index_name);
 
 const App = () => {
     const [value, setValue] = React.useState<string>('');
