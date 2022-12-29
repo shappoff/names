@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "es5",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "declaration": true
+  },
+  "files": [
+    "src/index.tsx"
+  ],
+  "include": ["src/custom.d.ts"]
+}
