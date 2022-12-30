@@ -1,23 +1,14 @@
 import {default as React} from 'react';
-
-const {
-    applicationID, adminAPIKey, index_name
-} = env;
-
-const algoliasearch = require("algoliasearch");
-
-const client = algoliasearch(applicationID, adminAPIKey);
-
-const currentAlgoliaIndex = client.initIndex(index_name);
+import {names} from "./namse";
 
 const App = () => {
     const [value, setValue] = React.useState<string>('');
     const [hits, setHits] = React.useState<Array<any>>([]);
     React.useEffect(() => {
-        value.length && currentAlgoliaIndex.search(value, {})
-            .then(({hits, facets}: any) => {
-                setHits(hits);
-            });
+        value.length && setHits(names.filter(({name}: any) => {
+            const regexp = new RegExp(value, "g");
+            return name.match(regexp);
+        }));
     }, [value]);
     const searchHandler = ({target}: any) => {
         setValue(target.value);
@@ -27,7 +18,7 @@ const App = () => {
         <input autoFocus onChange={searchHandler} type="text" value={value} id="input"/>
         <ul className="list-group">
             {
-                hits.map(({name, sex, _highlightResult}, index) => <li key={index} className="list-group-item" dangerouslySetInnerHTML={{__html: `${_highlightResult.name.value}, ${sex === 'male' ? 'муж' : 'жен'}`}}></li>)
+                hits.map(({name, sex}, index) => <li key={index} className="list-group-item" dangerouslySetInnerHTML={{__html: `${name}, ${sex === 'male' ? 'муж' : 'жен'}`}}></li>)
             }
         </ul>
     </div>
