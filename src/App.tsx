@@ -14,7 +14,7 @@ const App = () => {
     const [value, setValue] = React.useState<string>('');
     const [hits, setHits] = React.useState<Array<any>>([]);
     React.useEffect(() => {
-        currentAlgoliaIndex.search(value, {})
+        value.length && currentAlgoliaIndex.search(value, {})
             .then(({hits, facets}: any) => {
                 setHits(hits);
             });
