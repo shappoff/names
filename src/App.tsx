@@ -5,10 +5,14 @@ const App = () => {
     const [value, setValue] = React.useState<string>('');
     const [hits, setHits] = React.useState<Array<any>>([]);
     React.useEffect(() => {
-        value.length && setHits(names.filter(({name}: any) => {
-            const regexp = new RegExp(value, "g");
-            return name.match(regexp);
-        }));
+        if (value.length) {
+            setHits(names.filter(({name}: any) => {
+                const regexp = new RegExp(value, "g");
+                return name.match(regexp);
+            }));
+        } else {
+            setHits([]);
+        }
     }, [value]);
     const searchHandler = ({target}: any) => {
         setValue(target.value);
