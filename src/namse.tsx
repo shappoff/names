@@ -7483,7 +7483,247 @@ const names = [
         "name": "Яздундокта",
         "index": 342,
         "sex": "female"
-    }
+    },
+    {
+        "name": "Агафия",
+        "sex": "female"
+    },
+    {
+        "name": "Акилина",
+        "sex": "female"
+    },
+    {
+        "name": "Александра",
+        "sex": "female"
+    },
+    {
+        "name": "Алла",
+        "sex": "female"
+    },
+    {
+        "name": "Анастасия",
+        "sex": "female"
+    },
+    {
+        "name": "Ангелина",
+        "sex": "female"
+    },
+    {
+        "name": "Анисия",
+        "sex": "female"
+    },
+    {
+        "name": "Анна",
+        "sex": "female"
+    },
+    {
+        "name": "Антонина",
+        "sex": "female"
+    },
+    {
+        "name": "Анфиса",
+        "sex": "female"
+    },
+    {
+        "name": "Валентина",
+        "sex": "female"
+    },
+    {
+        "name": "Валерия",
+        "sex": "female"
+    },
+    {
+        "name": "Варвара",
+        "sex": "female"
+    },
+    {
+        "name": "Василисса",
+        "sex": "female"
+    },
+    {
+        "name": "Вера",
+        "sex": "female"
+    },
+    {
+        "name": "Вероника",
+        "sex": "female"
+    },
+    {
+        "name": "Галина",
+        "sex": "female"
+    },
+    {
+        "name": "Глафира",
+        "sex": "female"
+    },
+    {
+        "name": "Дарья",
+        "sex": "female"
+    },
+    {
+        "name": "Ева",
+        "sex": "female"
+    },
+    {
+        "name": "Евгения",
+        "sex": "female"
+    },
+    {
+        "name": "Евдокия",
+        "sex": "female"
+    },
+    {
+        "name": "Екатерина",
+        "sex": "female"
+    },
+    {
+        "name": "Елена",
+        "sex": "female"
+    },
+    {
+        "name": "Елизавета",
+        "sex": "female"
+    },
+    {
+        "name": "Зинаида",
+        "sex": "female"
+    },
+    {
+        "name": "Злата",
+        "sex": "female"
+    },
+    {
+        "name": "Зоя",
+        "sex": "female"
+    },
+    {
+        "name": "Иванна",
+        "sex": "female"
+    },
+    {
+        "name": "Илария",
+        "sex": "female"
+    },
+    {
+        "name": "Ирина",
+        "sex": "female"
+    },
+    {
+        "name": "Кира",
+        "sex": "female"
+    },
+    {
+        "name": "Кристина",
+        "sex": "female"
+    },
+    {
+        "name": "Ксения",
+        "sex": "female"
+    },
+    {
+        "name": "Лариса",
+        "sex": "female"
+    },
+    {
+        "name": "Лидия",
+        "sex": "female"
+    },
+    {
+        "name": "Любовь",
+        "sex": "female"
+    },
+    {
+        "name": "Людмила",
+        "sex": "female"
+    },
+    {
+        "name": "Маргарита",
+        "sex": "female"
+    },
+    {
+        "name": "Марина",
+        "sex": "female"
+    },
+    {
+        "name": "Мария",
+        "sex": "female"
+    },
+    {
+        "name": "Матрона",
+        "sex": "female"
+    },
+    {
+        "name": "Мелания",
+        "sex": "female"
+    },
+    {
+        "name": "Надежда",
+        "sex": "female"
+    },
+    {
+        "name": "Наталья",
+        "sex": "female"
+    },
+    {
+        "name": "Ника",
+        "sex": "female"
+    },
+    {
+        "name": "Нина",
+        "sex": "female"
+    },
+    {
+        "name": "Ольга",
+        "sex": "female"
+    },
+    {
+        "name": "Павла",
+        "sex": "female"
+    },
+    {
+        "name": "Раиса",
+        "sex": "female"
+    },
+    {
+        "name": "Руфина",
+        "sex": "female"
+    },
+    {
+        "name": "Саломия",
+        "sex": "female"
+    },
+    {
+        "name": "Светлана",
+        "sex": "female"
+    },
+    {
+        "name": "Сосанна",
+        "sex": "female"
+    },
+    {
+        "name": "София",
+        "sex": "female"
+    },
+    {
+        "name": "Таисия",
+        "sex": "female"
+    },
+    {
+        "name": "Тамара",
+        "sex": "female"
+    },
+    {
+        "name": "Татьяна",
+        "sex": "female"
+    },
+    {
+        "name": "Юлиана",
+        "sex": "female"
+    },
+    {
+        "name": "Юлия",
+        "sex": "female"
+    },
 ];
 
 export {names};
